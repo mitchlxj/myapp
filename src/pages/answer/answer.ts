@@ -26,7 +26,7 @@ export class AnswerPage extends BaseUI{
   errorMessage:any;
 
   constructor(
-    public navCtrl: NavController, 
+    public navCtrl: NavController,
     public navParams: NavParams,
     public viewCtrl:ViewController,
     public storage: Storage,
@@ -64,6 +64,7 @@ export class AnswerPage extends BaseUI{
           }, error => this.errorMessage = < any > error);
       } else {
         super.showToast(this.toastCtrl, "请登录后发布回答");
+        console.log('11111');
       }
     });
   }
