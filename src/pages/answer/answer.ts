@@ -66,6 +66,7 @@ export class AnswerPage extends BaseUI{
         super.showToast(this.toastCtrl, "请登录后发布回答");
         console.log('11111');
         console.log('2222222');
+        console.log('33333');
       }
     });
   }
