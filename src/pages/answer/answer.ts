@@ -67,6 +67,7 @@ export class AnswerPage extends BaseUI{
         console.log('11111');
         console.log('2222222');
         console.log('33333');
+        console.log('44444444444');
       }
     });
   }
